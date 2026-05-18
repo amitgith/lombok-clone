@@ -298,8 +298,11 @@ input:focus {
   display: flex;
   gap: 1rem;
 }
-.footer-text h1 {
+.footer-text a {
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  color: #111;
 }
